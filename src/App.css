@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+}
+.App{
+  background: #fafafa;
+  height: 100vh;
+  font-family: 'Poppins' , sans-serif;
+}
+.app__header {
+  background: #ffffff;
+  padding: 20px;
+  object-fit: contain;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+.app__signup{
+  display: flex;
+  flex-direction: column;
+}
+.app__headerImage{
+  object-fit: contain;
+}
+.app__posts{
+  padding: 20px;
+}
